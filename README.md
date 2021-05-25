@@ -12,6 +12,7 @@ git clone git://github.com/wl4g-collect/sshpass.git
 cd sshpass
 mkdir build
 ./configure --prefix=$(pwd)/build
+sudo yum -y install gcc gcc-c++ make zlib-devel pcre pcre-devel openssl-devel
 make && make install
 ```
 
