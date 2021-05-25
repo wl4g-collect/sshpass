@@ -15,6 +15,9 @@ mkdir build
 make && make install
 ```
 
+## FAQ
+- Errors of `sshpass/missing: line 81: aclocal-1.15: command not found` &nbsp;,&nbsp;Resolving exec:&nbsp; `autoreconf -ivf`
+
 ## Notes
 
 This repository is a mirror of http://sourceforge.net/projects/sshpass/develop
