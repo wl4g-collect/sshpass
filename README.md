@@ -7,9 +7,11 @@ Mirror of http://sourceforge.net/projects/sshpass/
 ## Installing
 
 ```bash
-git clone git://github.com/kevinburke/sshpass.git
+git clone git://github.com/wl4g-collect/sshpass.git
+#git clone git://gitee.com/wl4g-collect/sshpass.git
 cd sshpass
-./configure
+mkdir build
+./configure --prefix=$(pwd)/build
 make && make install
 ```
 
